@@ -2,9 +2,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>March Madness 23</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="p-9">
+    <h1 class="text-center font-bold text-xl">March Madness 2023</h1>
+    <hr class="my-5">
+    <div class="flex justify-around gap-5 text-center">
+      <div>
+        <select id="dd1">
+          <option value="">Pick One</option>
+        </select>
+        <div id="team1" class="mt-5"></div>
+      </div>
+      <div>
+        <select id="dd2">
+          <option value="">Pick One</option>
+        </select>
+        <div id="team2" class="mt-5"></div>
+      </div>
+    </div>
     <script src="./js.js"></script>
   </body>
 </html>
